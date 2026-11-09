@@ -15,8 +15,9 @@ python3 host/python/run_benchmark.py --mode hw --iterations 20 --sizes 65536 262
 ```
 
 The host can build in dry-run mode without XRT. Dry-run success is not hardware
-validation. Generated data and historical reports are excluded. Shared project
-generation and verification tools are in `fpga-verification-tools`.
+validation. Generated data and historical reports are excluded. The build/run commands above are project-local. Optional shared project
+generation and verification orchestration require the private
+`fpga-verification-tools` repository.
 
 ## Requirements
 
